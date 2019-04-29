@@ -1,0 +1,108 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "date": "2019-02-14",
+      "custName": "Richa Verma",
+      "relation": "D/O",
+      "relName": "R K Verma",
+      "village": "malawan",
+      "phone": "9643439440",
+      "ornaments": [
+        {
+          "subDate": "2019-01-06",
+          "ornament": "Ring",
+          "metal": "Gold",
+          "weight": 6,
+          "rupees": 8000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2019-04-09",
+      "custName": "Samarpit Verma",
+      "relation": "S/O",
+      "relName": "R K Verma",
+      "village": "malawan",
+      "phone": "8899822074",
+      "ornaments": [
+        {
+          "subDate": "2018-01-01",
+          "ornament": "Chain",
+          "metal": "Gold",
+          "weight": 10,
+          "rupees": 10000,
+          "deposit": [
+            {
+              "depositDate": "2018-06-30",
+              "depositAmount": 1000,
+              "actualAmount": 10000,
+              "interest": 1200,
+              "remainInterest": 200,
+              "totalAmount": 10000
+            },
+            {
+              "depositDate": "2018-12-31",
+              "depositAmount": 5000,
+              "actualAmount": 6226.666666666666,
+              "interest": 1226.6666666666667,
+              "remainInterest": 0,
+              "totalAmount": 6226.666666666666
+            }
+          ]
+        },
+        {
+          "subDate": "2018-07-01",
+          "ornament": "Ring",
+          "metal": "Gold",
+          "weight": 8,
+          "rupees": 15000,
+          "deposit": [
+            {
+              "depositDate": "2018-12-31",
+              "depositAmount": 5000,
+              "actualAmount": 9990,
+              "interest": -10,
+              "remainInterest": 0,
+              "totalAmount": 9990
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2018-02-02",
+      "custName": "Arpit Verma",
+      "relation": "S/O",
+      "relName": "R K Verma",
+      "village": "malawan",
+      "phone": "7786789098",
+      "ornaments": [
+        {
+          "subDate": "2018-03-02",
+          "ornament": "chain",
+          "metal": "Gold",
+          "weight": 15,
+          "rupees": 25000,
+          "deposit": []
+        },
+        {
+          "subDate": "2018-07-05",
+          "ornament": "ring",
+          "metal": "Gold",
+          "weight": 5,
+          "rupees": 5000,
+          "deposit": []
+        }
+      ]
+    }
+  ],
+  "auth": [
+    {
+      "username": "samar",
+      "password": "samar"
+    }
+  ]
+}
